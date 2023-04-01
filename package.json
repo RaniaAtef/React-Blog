@@ -1,0 +1,36 @@
+{
+  "name": "blog-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "json-server ./public/Data/db.json -m ./node_modules/json-server-auth"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.0.0",
+    "axios": "^1.3.4",
+    "daisyui": "^2.51.4",
+    "json-server-auth": "^2.1.0",
+    "json-server-uploader": "^1.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.8",
+    "react-loader-spinner": "^5.3.4",
+    "react-router-dom": "^6.9.0",
+    "react-toastify": "^9.1.2",
+    "router-dom": "^2.2.10",
+    "yup": "^1.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.2.0"
+  }
+}

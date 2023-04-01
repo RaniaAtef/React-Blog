@@ -1,0 +1,117 @@
+{
+  "posts": [
+    {
+      "title": "Yoga relaxes you, to help you sleep better.",
+      "description": "Research shows that a consistent bedtime yoga routine can help you get in the right mindset and prepare your body to fall asleep and stay asleep.  Try It: Legs-Up-the-Wall Pose Sit with your left side against a wall, then gently turn right and lift your legs up to rest against the wall, keeping your back on the floor and your sitting bones close to the wall. You can remain in this position for 5 to 15 minutes. ",
+      "image": "uploads/6f2ejd5i.jpg",
+      "userId": "1",
+      "firstName": "rania",
+      "id": 2
+    },
+    {
+      "title": "Yoga improves strength, balance and flexibility.",
+      "description": "Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can build strength.  Try it: Tree Pose Balance on one foot, while holding the other foot to your calf or above the knee (but never on the knee) at a right angle. Try to focus on one spot in front of you, while you balance for one minute. ",
+      "image": "uploads/md4ppqhe.jpg",
+      "userId": "1",
+      "firstName": "rania",
+      "id": 3
+    },
+    {
+      "title": "nn",
+      "description": "nn",
+      "image": "uploads/bophundx.jpg",
+      "userId": "1",
+      "firstName": "rania",
+      "id": 4
+    },
+    {
+      "title": "mmskmkm",
+      "description": "mmmmm",
+      "image": "uploads/hatromcp.jpg",
+      "userId": "2",
+      "firstName": "beshoy",
+      "id": 5
+    },
+    {
+      "title": "3 Ways Finding My WHY Helped Me Grow",
+      "description": "It gives me ease, strength, confidence and guidance, but ultimately peace and happiness. And through peace and happiness I have grown so much more, without that even being the intention of my WHY.  Here I’d like to share with you 3 ways finding my WHY helped me to grow, and how finding your why, you too can grow:  1) Perseverance – on the mat  Let me ask you this, what is your worst yoga asana?  I have a few, ha! (You wouldn’t think I’m a yoga teacher!)  For me, here are a couple I find challenging: – Half Moon – Pincha forearm stand  Because my WHY is to be strong and confident on & off the mat, chanting this to myself whenever I’m faced with a challenging asana has helped wonders with my mind and mental state during a tricky yoga pose.  Let’s break down forearm stand, the trickier of the two. You need a whole heck of a lot of shoulder strength and core strength to hold this and keep a straight line. The body needs to be stacked with no banana-shaped back. You need to have open hamstrings in order to walk the legs in and stack the hips in order to come up into forearm stand with control, without kicking up.  This is my nemesis. But with these physical challenges comes the mental challenge and perseverance on the mat. ‘To be strong & confident on & off the mat’ – strong in my shoulders and core, strong in my mind (‘I’ve got this, I can totally do this!’), confident in not falling over and if I do, so what? You learn from every fall and it builds you up to grow.",
+      "image": "uploads/i8qletxe.jpg",
+      "userId": "3",
+      "firstName": "mayar",
+      "id": 6
+    },
+    {
+      "title": "Yoga can mean more energy and brighter moods.",
+      "description": "You may feel increased mental and physical energy, a boost in alertness and enthusiasm, and fewer negative feelings after getting into a routine of practicing yoga.",
+      "image": "uploads/tzegfg22.jpg",
+      "userId": "1",
+      "firstName": "rania",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "rania@gmail.com",
+      "password": "$2a$10$a9GheQc1jxFiRDowipYGbejImbJs2Iee.OPhpBBNxEyABViM6PalW",
+      "firstName": "rania",
+      "surName": "atef",
+      "id": 1
+    },
+    {
+      "email": "beshoy@gmail.com",
+      "password": "$2a$10$51c079MkkAmGZ39E9BVoVeMek2K2FArPSi2bKtTKVgiMVT7ipUi4O",
+      "firstName": "beshoy",
+      "surName": "osama",
+      "id": 2
+    },
+    {
+      "email": "mayar@gmail.com",
+      "password": "$2a$10$.JtkBs1Ki8.5ctMh4xlNcOWFdRMuFvbZ9g/REy.vgwxJdAcXDBWWG",
+      "firstName": "mayar",
+      "surName": "mohamed",
+      "id": 3
+    },
+    {
+      "email": "safaa@gmail.com",
+      "password": "$2a$10$UxZbaIzzu8Ob8jy2wRwMSOGuN4RrBbgAOvc/Gh7gj7o7lK6MEzT0K",
+      "firstName": "safaa",
+      "surName": "yassin",
+      "id": 4
+    },
+    {
+      "email": "menna@gmail.com",
+      "password": "$2a$10$Yqw/pMrci95Qmfp6eSZRAeJyqvciwizoN9ZuNK6uQG0y7z9xrU.O2",
+      "firstName": "menna",
+      "surName": "ahmd",
+      "id": 5
+    },
+    {
+      "email": "youssef@gmail.com",
+      "password": "$2a$10$bYt9OFHdXI/FstD6II0nJuLIZ28WIcv0CFLihpnbhlbkJ5OEAcipq",
+      "firstName": "yousef",
+      "surName": "saeed",
+      "id": 6
+    },
+    {
+      "email": "mai@gmail.com",
+      "password": "$2a$10$cWc8nhi3wKc8PBG6bNjS4OG0Dx5IV2H3f.er91EmaOnSd6fCNjFtm",
+      "firstName": "mai",
+      "surName": "mostafa",
+      "id": 7
+    },
+    {
+      "email": "maaai@gmail.com",
+      "password": "$2a$10$y23aOBnv4GP99zJniu4DwO0D/DR4iAmBYEzeLQgr96k9BcdsF2RZu",
+      "firstName": "maaiiii",
+      "surName": "mostafa",
+      "id": 8
+    },
+    {
+      "email": "ola@gmail.com",
+      "password": "$2a$10$phtBSuX87q7OHc3SeowWrOu3TuFse9xbIiJQkP/gGCAae1UzsynYS",
+      "firstName": "ola",
+      "surName": "atef",
+      "id": 9
+    }
+  ]
+}
