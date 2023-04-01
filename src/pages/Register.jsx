@@ -21,7 +21,7 @@ export default function Register() {
     console.log(data);
 
     axios
-      .post("http://localhost:3000/register", {
+      .post("https://myyusr.sse.codesandbox.io/register", {
         firstName: data.firstName,
         surName: data.surName,
         email: data.email,

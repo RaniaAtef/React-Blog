@@ -27,7 +27,9 @@ export default function EditForm() {
   };
   useEffect(() => {
     async function getPostById() {
-      const res = await axios.get(`http://localhost:3000/posts/${params.id}`);
+      const res = await axios.get(
+        `https://myyusr.sse.codesandbox.io/posts/${params.id}`
+      );
       setTitle(res.data.title);
       setDescription(res.data.description);
       setImage(res.data.image);

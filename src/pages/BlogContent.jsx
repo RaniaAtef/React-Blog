@@ -11,7 +11,9 @@ export default function BlogContent() {
   useEffect(() => {
     async function getPostById() {
       // try {
-      const data = await axios.get(`http://localhost:3000/posts/${params.id}`);
+      const data = await axios.get(
+        `https://myyusr.sse.codesandbox.io/posts/${params.id}`
+      );
       console.log("data:", data.data);
 
       setPost(data.data);

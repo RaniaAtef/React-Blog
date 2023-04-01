@@ -19,7 +19,7 @@ export default function AddForm() {
     formData.append("firstName", firstName);
 
     axios
-      .post("http://localhost:3000/posts", formData, {
+      .post("https://myyusr.sse.codesandbox.io/posts", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
