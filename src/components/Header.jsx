@@ -19,7 +19,6 @@ export function Header() {
     localStorage.removeItem("user");
     setLoggedIn(false);
     navigate("/");
-    // window.location.href = "/";
   };
   return (
     <div className="navbar bg-[#3D4451] ">

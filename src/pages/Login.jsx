@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import axios from "axios";
 import { useForm } from "react-hook-form";
 import { useNavigate } from "react-router-dom";
-import UserContext from "../context/userContext";
+import UserContext from "../context/userContex";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ThreeDots, Circles } from "react-loader-spinner";

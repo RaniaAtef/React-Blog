@@ -4,7 +4,7 @@ import axios from "axios";
 import Section from "../components/Section";
 import AddButton from "../components/AddButton";
 import AddForm from "../components/AddForm";
-import UserContext from "../context/userContext";
+import UserContext from "../context/userContex";
 import { ThreeDots, Circles } from "react-loader-spinner";
 
 export default function Home() {

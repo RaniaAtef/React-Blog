@@ -75,7 +75,6 @@ export default function AddForm() {
                 placeholder="image"
                 className="border border-gray-400 py-1 px-2 w-full"
                 id="image"
-                // value={image}
                 onChange={(e) => {
                   console.log(e.target.files[0]);
                   setImage(e.target.files[0]);

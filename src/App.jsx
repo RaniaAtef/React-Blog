@@ -8,8 +8,9 @@ import Register from "./pages/Register";
 import Footer from "./components/Footer";
 import AddForm from "./components/AddForm";
 import BlogContent from "./pages/BlogContent";
-import UserContext from "./context/userContext";
+// import UserContext from "./context/UserContext";
 import EditForm from "./components/EditForm";
+import UserContext from "./context/userContex";
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));

@@ -17,9 +17,7 @@ export default function Cards({ post, handleDelete }) {
       <div className="grid grid-cols-3 gap-8 ">
         <div className="card w-96 bg-base-100 shadow-xl flex">
           <figure>
-            {/* <img src={post.image} alt="yoga" /> */}
             <img src={`Data/${post.image}`} alt="yoga" />
-            {/* <img src="Data/uploads/6f2ejd5i.jpg" alt="yoga" /> */}
           </figure>
           <div className="card-body">
             {post.userId == id ? (
@@ -67,9 +65,7 @@ export default function Cards({ post, handleDelete }) {
               <div className="badge badge-secondary">NEW</div>
             </h2>
             <p>{post.description.substring(0, 50)}</p>
-            {/* <p>{post.userName}</p> */}
 
-            {/* <p>{localStorage.getItem("firstName")}</p> */}
             <div className="card-actions justify-end">
               <div className="badge badge-outline">Meditation</div>
               <div className="badge badge-outline radius">Peace</div>
