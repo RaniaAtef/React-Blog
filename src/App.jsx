@@ -11,6 +11,7 @@ import BlogContent from "./pages/BlogContent";
 // import UserContext from "./context/UserContext";
 import EditForm from "./components/EditForm";
 import UserContext from "./context/userContex";
+import PrivateRoutes from "./utils/PrivateRoutes";
 
 function App() {
   const [user, setUser] = useState(JSON.parse(localStorage.getItem("user")));
@@ -24,9 +25,11 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/AddPost" element={<AddForm />} />
             <Route path="/edit/:id" element={<EditForm />} />
             <Route path="/blog/:id" element={<BlogContent />} />
+            <Route element={<PrivateRoutes />}>
+              <Route path="/AddPost" element={<AddForm />} />
+            </Route>
           </Routes>
         </div>
         <Footer />

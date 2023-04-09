@@ -11,11 +11,20 @@ export default function EditForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formData = new FormData();
+    formData.append("title", title);
+    formData.append("description", description);
+    formData.append("image", image);
+    // formData.append("userId", id);
+    // formData.append("firstName", firstName);
     axios
-      .patch(`http://localhost:3000/posts/${params.id}`, {
-        title: title,
-        description: description,
-        image: image,
+      .patch(`http://localhost:3000/posts/${params.id}`, formData, {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+        // title: title,
+        // description: description,
+        // image: image,
       })
       .then(function (res) {
         console.log(res);
@@ -27,9 +36,7 @@ export default function EditForm() {
   };
   useEffect(() => {
     async function getPostById() {
-      const res = await axios.get(
-        `https://myyusr.sse.codesandbox.io/posts/${params.id}`
-      );
+      const res = await axios.get(`http://localhost:3000/posts/${params.id}`);
       setTitle(res.data.title);
       setDescription(res.data.description);
       setImage(res.data.image);
@@ -80,13 +87,13 @@ export default function EditForm() {
             </div>
             <div className="mt-5">
               <input
-                type="text"
+                type="file"
                 placeholder="image"
                 className="border border-gray-400 py-1 px-2 w-full"
                 id="image"
-                value={image}
                 onChange={(e) => {
-                  setImage(e.target.value);
+                  console.log(e.target.files[0]);
+                  setImage(e.target.files[0]);
                 }}
               />
             </div>

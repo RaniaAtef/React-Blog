@@ -22,7 +22,7 @@ export default function Login() {
     setLoading(true);
     console.log(data);
     axios
-      .post("https://myyusr.sse.codesandbox.io/login", {
+      .post("http://localhost:3000/login", {
         email: data.email,
         password: data.password,
       })

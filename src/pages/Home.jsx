@@ -15,9 +15,7 @@ export default function Home() {
   const [posts, setPosts] = useState([]);
   async function getPosts() {
     try {
-      const { data } = await axios.get(
-        "https://myyusr.sse.codesandbox.io/posts"
-      );
+      const { data } = await axios.get("http://localhost:3000/posts");
 
       setPosts(data);
       setNoOfPages(Math.ceil(data.length / pageSize));
@@ -41,9 +39,7 @@ export default function Home() {
 
   async function handleDelete(post) {
     try {
-      const res = await axios.delete(
-        `https://myyusr.sse.codesandbox.io/posts/${post.id}`
-      );
+      const res = await axios.delete(`http://localhost:3000/posts/${post.id}`);
       console.log(res);
       getPosts();
     } catch (err) {

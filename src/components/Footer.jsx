@@ -2,11 +2,7 @@ export default function Footer() {
   return (
     <footer className="footer p-10 bg-neutral text-neutral-content mt-12">
       <div>
-        <img
-          src="/assets/images/logo-no-background.png"
-          className="w-40"
-          alt=""
-        />
+        <img src="/assets/images/logo.png" className="w-40" alt="" />
 
         <p>
           Find Your Balance. <br />

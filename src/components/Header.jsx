@@ -74,11 +74,7 @@ export function Header() {
         </div>
         <Link className="ml-7 normal-case text-xl ">
           {" "}
-          <img
-            src="/assets/images/logo-no-background.png"
-            className="w-16"
-            alt=""
-          />
+          <img src="/assets/images/logo.png" className="w-20" alt="" />
         </Link>
       </div>
 

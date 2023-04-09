@@ -8,7 +8,7 @@ export default function AddButton() {
   }
   return (
     <button
-      className="btn btn-circle items-center bg-[#A0C3D2] fixed right-0 bottom-0 m-6"
+      className="btn btn-circle items-center bg-[#F9F1DB] fixed right-0 bottom-0 m-6"
       onClick={addPost}
     >
       <svg
