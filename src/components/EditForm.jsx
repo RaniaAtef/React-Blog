@@ -15,16 +15,12 @@ export default function EditForm() {
     formData.append("title", title);
     formData.append("description", description);
     formData.append("image", image);
-    // formData.append("userId", id);
-    // formData.append("firstName", firstName);
+
     axios
       .patch(`http://localhost:3000/posts/${params.id}`, formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-        // title: title,
-        // description: description,
-        // image: image,
       })
       .then(function (res) {
         console.log(res);
